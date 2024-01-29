@@ -7,18 +7,29 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
     background-color: black;
     font-family: 'Satoshi-Bold';
     color: #fff;
     padding: 0.1em;
-    text-align: left;
-    padding-left: 5vh;
 }
 
 h1 {
+    text-align: left;
+    padding-left: 5vh;
     background: -webkit-linear-gradient(45deg, #0d65e8, #1cf2c7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: 5vh;
+}
+
+a {
+    color: #0095ff; /* Change this to the desired color value */
 }
 
 main {
