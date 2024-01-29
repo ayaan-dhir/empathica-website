@@ -1,0 +1,54 @@
+/* guides.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Satoshi-Bold';
+    color: #fff;
+    padding: 0.1em;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 5vh;
+    background: -webkit-linear-gradient(45deg, #0d65e8, #1cf2c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: 'Satoshi-Medium';
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main div {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    font-family: 'Satoshi-Light';
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.logo {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    width: 70px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
