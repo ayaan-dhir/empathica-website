@@ -44,10 +44,7 @@ footer {
     padding: 1em;
 }
 
-.logo {
-    position: absolute;
-    top: 10px; /* Adjust the top position as needed */
-    left: 10px; /* Adjust the left position as needed */
-    width: 70px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+a {
+    color: #0095ff; /* Change this to the desired color value */
+    text-decoration: none;
 }
