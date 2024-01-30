@@ -8,7 +8,7 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: black;
     font-family: 'Satoshi-Bold';
     color: #fff;
@@ -16,10 +16,23 @@ header {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+    padding-left: 5vh;
     background: -webkit-linear-gradient(45deg, #0d65e8, #1cf2c7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 50pt;
+    background: -webkit-linear-gradient(45deg, #0d65e8, #1cf2c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+}
+
+p {
+    margin: auto;
 }
 
 main {
