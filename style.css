@@ -28,6 +28,15 @@ h2 {
     margin-right: 5vh;
 }
 
+h3 {
+    font-size: 50pt;
+    font-family: 'Satoshi-Medium';
+    background: -webkit-linear-gradient(45deg, #0d65e8, #1cf2c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+}
+
 a {
     background: -webkit-linear-gradient(45deg, #0d65e8, #1cf2c7);
     -webkit-background-clip: text;
